@@ -20,7 +20,7 @@ jobs:
 
       - name: Get artifact URL
         # Replace this with actual URL or generated Modrinth link
-        run: echo "DOWNLOAD_URL=https://modrinth.com/mod/ore-genesis/versions" >> $GITHUB_ENV
+        run: echo "DOWNLOAD_URL=https://cdn.modrinth.com/data/saGVH1r4/versions/x2FailGv/ore_genesis-2.0.1-fabric-1.21.8.jar >> $GITHUB_ENV
 
       - name: Update update.json
         run: |
